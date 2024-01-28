@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text">Conversor de monedas Nacional</h1>
+        <div class="seccionCalc">
+            <div class="monedas">
+                <h3 id="moneda" class="text">Pesos CLP</h3>
+                <div id="valorMoneda">
+                    <input type="text" id="input" placeholder="Ingrese el monto en CLP">
+                </div>
+            </div>
+            <div class="convertidor">
+                <h5 class="text">Moneda a convertir</h5>
+                <select name="" id="opcion">
+                    <option value="1" class="dolar text">USD</option>
+                    <option value="2" class="uf text">UF</option>
+                </select>
+                <button onclick="convertir()" class="convertir text">Convertir</button>
+                <h4 class="resultado text">Resultado: </h4>
+            </div>
+        </div>
+    </div>
+    <!-- link al js -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
